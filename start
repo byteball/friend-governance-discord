@@ -1,0 +1,1 @@
+node start.js friend-gov 2>errlog
