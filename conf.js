@@ -14,7 +14,7 @@ exports.hub = process.env.testnet ? 'obyte.org/bb-test' : 'obyte.org/bb';
 
 exports.explorer_base_url = process.env.testnet ? 'https://testnetexplorer.obyte.org/' : 'https://explorer.obyte.org/';
 
-exports.friend_aa = process.env.testnet ? 'FRDOJAJVFY2WWMM4TZNUWEX5RU5FBBTG' : 'FRDOJAJVFY2WWMM4TZNUWEX5RU5FBBTG';
+exports.friend_aa = process.env.testnet ? 'FRDOJAJVFY2WWMM4TZNUWEX5RU5FBBTG' : 'FRDOT24PXLEY4BRGC7WPMSKXUWUFMUMG';
 
 exports.token_registry_AA_address = process.env.TOKEN_REGISTRY_AA_ADDRESS;
 
