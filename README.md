@@ -1,6 +1,6 @@
 # Obyte Friends Governance Discord bot
 
-Watch the [Obyte Friends](https://friend.obyte.org) and posts notifications on Discord when something happens.
+Watch the [Obyte Friends](https://friends.obyte.org) and posts notifications on Discord when something happens.
 
 ## Setup
 

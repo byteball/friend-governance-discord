@@ -41,7 +41,7 @@ eventBus.on('aa_response', async function (objResponse) {
 		const event = await governanceEvents.treatResponseFromGovernanceAA(objResponse, asset, main_aa);
 		if (!event.type) return console.log('ignored response with no type: ', event);
 
-		governanceDiscord.announceEvent("Obyte Friends", `https://friend.obyte.org`, event);
+		governanceDiscord.announceEvent("Obyte Friends", `https://friends.obyte.org/governance`, event);
 	} else {
 		console.log('ignored response from unknown AA: ' + objResponse.aa_address);
 	}
