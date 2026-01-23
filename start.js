@@ -38,7 +38,7 @@ eventBus.on('aa_response', async function (objResponse) {
 		const { main_aa } = assocGovernanceAAs[objResponse.aa_address];
 		const { asset, symbol, decimals } = assocFriendAAs[main_aa];
 
-		const event = await governanceEvents.treatResponseFromGovernanceAA(objResponse, asset, main_aa);
+		const event = await governanceEvents.treatResponseFromGovernanceAA(objResponse, decimals, main_aa);
 		if (!event.type) return console.log('ignored response with no type: ', event);
 
 		governanceDiscord.announceEvent("Obyte Friends", `https://friends.obyte.org/governance`, event);
